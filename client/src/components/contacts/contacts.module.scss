@@ -1,0 +1,13 @@
+@import "../../styles/variables.scss";
+.contacts {
+  // border: 1px solid blue;
+  // margin-left: 2vw;
+  width: 300px;
+  margin: auto;
+  h2 {
+    font-size: $titleFontSize;
+    font-weight: 400;
+    margin-bottom: 1vh;
+    text-align: center;
+  }
+}

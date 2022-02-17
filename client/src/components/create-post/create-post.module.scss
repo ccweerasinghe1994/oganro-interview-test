@@ -1,0 +1,63 @@
+@import "../../styles/variables.scss";
+
+.form__wrapper {
+  // border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+
+  h2 {
+    font-family: inherit;
+    font-size: $titleFontSize;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+  .title,
+  .textArea {
+    font-family: inherit;
+    width: 100%;
+    padding: 3%;
+    background: rgba($blue, 0.2);
+    border-bottom: 2px solid $orange;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: $light;
+    margin-bottom: 1rem;
+    &:focus {
+      box-shadow: 0 0 5px $orange;
+      padding: 3%;
+      border: 1px solid $orange;
+    }
+  }
+
+  .setImageFile {
+  }
+  .button,
+  .setImageFile {
+    cursor: pointer;
+    font-family: inherit;
+    width: 100%;
+    padding: 3%;
+    background: rgba($orange, 0.2);
+    border-bottom: 2px solid $orange;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    margin: 1rem 0;
+    color: $light;
+    &:hover {
+      background: $orange;
+      color: $dark;
+    }
+  }
+
+  .button {
+    font-weight: 400;
+    font-size: 1.2rem;
+    width: min-content;
+    padding: 0.1rem 2rem;
+  }
+}
